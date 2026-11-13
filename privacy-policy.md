@@ -1,118 +1,125 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shake Flash Privacy Policy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shake Flash Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for Shake Flash, a shake-controlled flashlight app.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      background: #f5f7fb;
+      color: #222;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 8px 30px rgba(20, 35, 60, .08);
+    }
+    h1, h2 { color: #17233b; line-height: 1.3; }
+    h1 { margin-top: 0; }
+    h2 { margin-top: 28px; font-size: 1.25rem; }
+    .muted { color: #626d7d; font-size: .95rem; }
+    a { color: #2457c5; }
+    footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid #e5e9f0; }
+    @media (max-width: 600px) {
+      body { padding: 12px; }
+      main { padding: 22px 18px; }
+    }
+  </style>
 </head>
 <body>
+  <main>
+    <h1>Shake Flash Privacy Policy</h1>
+    <p class="muted"><strong>Effective date:</strong> November 13, 2026</p>
+    <p>
+      This Privacy Policy explains how Shake Flash ("the App") handles information
+      when you use its flashlight, shake-detection, and optional Pocket Mode features.
+    </p>
 
-<h1>Shake Flash Privacy Policy</h1>
+    <h2>Information the App handles</h2>
+    <p>
+      The App does not require an account. Shake count, cooldown, Pocket Mode,
+      vibration intensity, and whether background detection is enabled are saved
+      locally on your device so your preferences can be remembered. These settings
+      are not sent to a Shake Flash server by the App.
+    </p>
+    <p>
+      When shake detection is enabled, accelerometer readings are processed on your
+      device to recognize a shake. If Pocket Mode is enabled and your device has a
+      proximity sensor, proximity readings are used on-device to help prevent
+      accidental flashlight activation. These sensor readings are not saved as a
+      history by the App.
+    </p>
 
-<p><strong>Last updated: November 5, 2026</strong></p>
+    <h2>Permissions and device features</h2>
+    <ul>
+      <li><strong>Camera:</strong> Used by the operating system to operate the camera flash. The App does not take or store photos or videos.</li>
+      <li><strong>Notifications:</strong> Used to show the ongoing notification while background shake detection is running.</li>
+      <li><strong>Motion and proximity sensors:</strong> Used locally for shake detection and, when enabled, Pocket Mode. Sensor availability depends on your device.</li>
+      <li><strong>Vibration:</strong> Used to provide feedback when the flashlight is toggled, according to your vibration setting.</li>
+      <li><strong>Background service:</strong> Runs the detection feature you enable and may be limited by your operating system or device manufacturer.</li>
+    </ul>
+    <p>
+      You can turn off background detection in the App and manage or revoke
+      permissions through your device settings. Revoking a permission may prevent
+      the related feature from working.
+    </p>
 
-<p>
-Shake Flash is a flashlight app with an optional shake-to-toggle feature. This
-policy describes the information the app uses and how it is handled.
-</p>
+    <h2>Sharing, analytics, and advertising</h2>
+    <p>
+      The current version of the App does not include an account system, advertising
+      SDK, analytics SDK, or Shake Flash backend. The App does not sell personal
+      information. Your operating system, device manufacturer, app store, or any
+      service you choose to use may handle information under its own privacy terms.
+    </p>
 
-<h2>Information the app uses</h2>
+    <h2>Retention and deletion</h2>
+    <p>
+      Preferences remain in the App's local storage until you change them, clear the
+      App's storage, or uninstall the App. Sensor readings are processed for the
+      feature and are not retained as a history by the App. You can stop sensor
+      processing by turning off background detection or uninstalling the App.
+    </p>
 
-<ul>
-    <li>
-        <strong>App settings:</strong> The selected shake count, cooldown, and whether background
-        shake detection was enabled are stored locally on your device using the
-        platform's app-preferences storage.
-    </li>
+    <h2>Children's privacy</h2>
+    <p>
+      The App is not designed to collect personal information from children. The
+      current version does not ask users to submit personal information.
+    </p>
 
-    <li>
-        <strong>Motion sensor readings:</strong> When you enable shake detection, the app reads
-        accelerometer data on your device to recognize shakes. The readings are
-        processed locally in memory and are not saved as a history.
-    </li>
+    <h2>Security</h2>
+    <p>
+      App preferences are stored locally using the platform's application storage.
+      No method of storage or electronic service can be guaranteed to be completely
+      secure. Protect your device with the security features provided by its
+      operating system.
+    </p>
 
-    <li>
-        <strong>Flashlight access:</strong> Camera permission is used only to control the device's
-        flashlight. Shake Flash does not take or record photos or videos.
-    </li>
+    <h2>Changes to this policy</h2>
+    <p>
+      This policy may be updated if the App or its data practices change. The latest
+      version will be published at this page. Please review the effective date above
+      when checking for updates.
+    </p>
 
-    <li>
-        <strong>Notifications and background operation:</strong> When background shake detection
-        is enabled, the app displays an ongoing notification. The app may use the
-        platform's foreground-service and wake-lock features to keep that
-        user-enabled function available while the screen is off.
-    </li>
+    <h2>Contact</h2>
+    <p>
+      For privacy questions, contact the developer at
+      <a href="mailto:YOUR_EMAIL_ADDRESS">YOUR_EMAIL_ADDRESS</a>.
+      Replace this placeholder with a monitored contact email before publishing.
+    </p>
 
-    <li>
-        <strong>Vibration:</strong> The device may vibrate briefly when a shake toggles the
-        flashlight.
-    </li>
-</ul>
-
-<h2>Collection, use, and sharing</h2>
-
-<p>
-The current version does not require an account and does not include
-advertising, analytics, or a Shake Flash server. The settings and sensor
-readings described above are handled on your device; the app does not send
-them to the developer or share them with third parties.
-</p>
-
-<p>
-Your operating system and device manufacturer may process app, permission,
-notification, or service information under their own privacy policies. This
-policy does not cover those platform-level practices.
-</p>
-
-<h2>Data retention and deletion</h2>
-
-<p>
-Settings remain in the app's local storage until you change them, clear the
-app's storage, or uninstall Shake Flash. Motion sensor readings are not retained
-as a history. You can stop background detection from the app's Settings or
-revoke permissions in your device settings.
-</p>
-
-<h2>Children's privacy</h2>
-
-<p>
-Shake Flash does not knowingly collect personal information from children or
-anyone else. The app has no account or personal-data submission feature.
-</p>
-
-<h2>Security</h2>
-
-<p>
-The app is designed to keep its settings and motion processing on your device.
-Use your device's screen lock and other security controls to protect access to
-the device and its app data.
-</p>
-
-<h2>Changes to this policy</h2>
-
-<p>
-This policy may be updated when the app's features or data practices change.
-The latest version will be published in this repository with its updated date.
-If advertising, analytics, or any data-sharing feature is added, this policy
-will be revised before that feature is released.
-</p>
-
-<h2>Contact</h2>
-
-<p>
-Before publishing this policy, replace the placeholder below with a contact
-method controlled by the app maintainer:
-</p>
-
-<p>
-<strong>App maintainer contact:</strong>
-<code>[Add a contact email or private contact form]</code>
-</p>
-
-<p>
-Do not post personal or sensitive information in a public GitHub issue.
-</p>
-
+    <footer class="muted">
+      <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+    </footer>
+  </main>
 </body>
 </html>
